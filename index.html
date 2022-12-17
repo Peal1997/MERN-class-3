@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- #191923 -->
+    <div class="container">
+      <!-- for dark mode -->
+      <label>
+        <input checked type="radio" name="theme" value="dark">
+        Dark
+      </label>
+      <!-- for light mode -->
+      <label>
+        <input type="radio" name="theme" value="light">
+        Light
+      </label>
+
+      <section>
+        <p></p>
+        <div class="card w-50 shadow mx-auto">
+          <div class="card-header">
+            <h1>Student form</h1>
+          </div>
+          <div class="card-body">
+            <div class="msg">
+
+            </div>
+            <form action="">
+              <div class="form-group my-3">
+                <input name="name" type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group my-3">
+                <input name="email" type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input name="cell" type="text" class="form-control" placeholder="Cell">
+              </div>
+              <div class="form-group my-3">
+                <input type="submit" value="submit" class="btn btn-primary w-100">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./function.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
